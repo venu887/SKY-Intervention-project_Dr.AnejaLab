@@ -6,10 +6,10 @@
 # ==============================================================================
 rm(list = ls())
 library(tidyverse)
-mean_hrv<-read.csv("~/Documents/UAB/SKY/Data/HRV_Survay/FW_HRV_files/treatment_diff_75_data.csv")
-sleep_elevate<-read.csv("~/Documents/UAB/SKY/Data/HRV_Survay/FW_HRV_files/sleep_hrv.csv")
-hrv           <- readRDS("~/Documents/UAB/SKY/Data/HRV_Survay/FW_HRV_files/hrv.RDS")
-overallsleep  <- readRDS("~/Documents/UAB/SKY/Data/HRV_Survay/FW_HRV_files/overallsleep.RDS")
+mean_hrv<-read.csv("HRV_Survay/FW_HRV_files/treatment_diff_75_data.csv")
+sleep_elevate<-read.csv("~HRV_Survay/FW_HRV_files/sleep_hrv.csv")
+hrv           <- readRDS("~HRV_Survay/FW_HRV_files/hrv.RDS")
+overallsleep  <- readRDS("~HRV_Survay/overallsleep.RDS")
 
 clean_study_data <- function(df) {
   df %>%
