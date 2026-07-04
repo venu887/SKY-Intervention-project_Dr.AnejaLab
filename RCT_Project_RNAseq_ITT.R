@@ -1,6 +1,7 @@
 #@@@@@@@@@@@@ 
 # Analyses of gene expression patterns showed that stress-responsive transcripts 
-# https://www.nature.com/articles/npp201657
+## Modified Intent-to-Treat (mITT) Analysis
+# Here, we developed a Modified Intent-to-Treat (mITT) analysis algorithm to interpret the clinical data of the SKY and Control groups.
 # ==============================================================================
 rm(list = ls())
 library(limma)
