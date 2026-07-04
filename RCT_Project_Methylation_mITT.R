@@ -1,6 +1,7 @@
 #@@@@@@@@@@@@@@@@@@@@@@@@@@@
-# DNA methylation analysis using Limma
-# reference gene annotation files downloaded from 
+## Modified Intent-to-Treat (mITT) Analysis
+# Here, we developed a Modified Intent-to-Treat (mITT) analysis algorithm to interpret the clinical data of the SKY and Control groups.
+# DNA methylation analysis using Limma, reference gene annotation files downloaded from 
 # Dataset posted on 2023-05-15 https://figshare.com/articles/dataset/Official_annotation_files_for_the_Illumina_Methylation_BeadChips_EPIC_v1_0_and_v2_0_/22819970
 # Published February 26, 2025 Re-annotated EPICV2 are found in here:https://zenodo.org/records/14933469
 
